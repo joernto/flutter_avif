@@ -1,22 +1,51 @@
 name: flutter_avif
 description: A flutter plugin to view and encode avif images using libavif.
-version: 3.1.0
-repository: https://github.com/yekeskin/flutter_avif
+version: 3.1.1
+repository: https://github.com/joernto/flutter_avif
+publish_to: none
 
 environment:
-  sdk: ">=3.4.0 <4.0.0"
+  sdk: ^3.10.0
   flutter: ">=3.22.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  flutter_avif_platform_interface: ^3.1.0
-  flutter_avif_android: ^3.1.0
-  flutter_avif_ios: ^3.1.0
-  flutter_avif_macos: ^3.1.0
-  flutter_avif_linux: ^3.1.0
-  flutter_avif_windows: ^3.1.0
-  flutter_avif_web: ^3.1.0
+  flutter_avif_platform_interface:
+    git:
+      url: https://github.com/joernto/flutter_avif.git
+      path: flutter_avif_platform_interface
+      ref: main
+  flutter_avif_android:
+      git:
+        url: https://github.com/joernto/flutter_avif.git
+        path: flutter_avif_android
+        ref: main
+  flutter_avif_ios:
+      git:
+        url: https://github.com/joernto/flutter_avif.git
+        path: flutter_avif_ios
+        ref: main
+  flutter_avif_macos:
+      git:
+        url: https://github.com/joernto/flutter_avif.git
+        path: flutter_avif_macos
+        ref: main
+  flutter_avif_linux:
+      git:
+        url: https://github.com/joernto/flutter_avif.git
+        path: flutter_avif_linux
+        ref: main
+  flutter_avif_windows:
+      git:
+        url: https://github.com/joernto/flutter_avif.git
+        path: flutter_avif_windows
+        ref: main
+  flutter_avif_web:
+      git:
+        url: https://github.com/joernto/flutter_avif.git
+        path: flutter_avif_web
+        ref: main
   http: ^1.2.2
   exif: ^3.3.0
   flutter_cache_manager: ^3.4.1
