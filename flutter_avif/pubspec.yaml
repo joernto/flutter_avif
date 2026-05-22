@@ -12,40 +12,19 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_avif_platform_interface:
-    git:
-      url: https://github.com/joernto/flutter_avif.git
-      path: flutter_avif_platform_interface
-      ref: main
+    path: ../flutter_avif_platform_interface
   flutter_avif_android:
-      git:
-        url: https://github.com/joernto/flutter_avif.git
-        path: flutter_avif_android
-        ref: main
+    path: ../flutter_avif_android
   flutter_avif_ios:
-      git:
-        url: https://github.com/joernto/flutter_avif.git
-        path: flutter_avif_ios
-        ref: main
+    path: ../flutter_avif_ios
   flutter_avif_macos:
-      git:
-        url: https://github.com/joernto/flutter_avif.git
-        path: flutter_avif_macos
-        ref: main
+    path: ../flutter_avif_macos
   flutter_avif_linux:
-      git:
-        url: https://github.com/joernto/flutter_avif.git
-        path: flutter_avif_linux
-        ref: main
+    path: ../flutter_avif_linux
   flutter_avif_windows:
-      git:
-        url: https://github.com/joernto/flutter_avif.git
-        path: flutter_avif_windows
-        ref: main
+    path: ../flutter_avif_windows
   flutter_avif_web:
-      git:
-        url: https://github.com/joernto/flutter_avif.git
-        path: flutter_avif_web
-        ref: main
+    path: ../flutter_avif_web
   http: ^1.2.2
   exif: ^3.3.0
   flutter_cache_manager: ^3.4.1
