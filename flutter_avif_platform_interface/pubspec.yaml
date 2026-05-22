@@ -1,10 +1,11 @@
 name: flutter_avif_platform_interface
 description: Common platform interface for the flutter_avif plugin.
-version: 3.1.0
-repository: https://github.com/yekeskin/flutter_avif/tree/main/flutter_avif_platform_interface
+version: 3.1.1
+repository: https://github.com/joernto/flutter_avif/tree/main/flutter_avif_platform_interface
+publish_to: none
 
 environment:
-  sdk: ">=3.4.0 <4.0.0"
+  sdk: ^3.10.0
   flutter: ">=3.22.0"
 
 dependencies:

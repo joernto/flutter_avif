@@ -1,4 +1,4 @@
-package com.teknorota.flutter_avif;
+package de.joernto.flutter_avif;
 
 import androidx.annotation.NonNull;
 

@@ -1,4 +1,4 @@
-group 'com.teknorota.flutter_avif'
+group 'de.joernto.flutter_avif'
 version '1.0'
 
 buildscript {
@@ -24,7 +24,7 @@ apply plugin: 'com.android.library'
 android {
 
     if (project.android.hasProperty("namespace")) {
-        namespace = "com.teknorota.flutter_avif"
+        namespace = "de.joernto.flutter_avif"
     }
 
     compileSdkVersion 36
